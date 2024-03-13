@@ -1,0 +1,87 @@
+body{
+  background-color: #4e2f08;
+}
+
+/* Content or the Body of the website */
+#content{
+  text-align: center;
+    background: linear-gradient(#4e2f08,#8f673d,#8d775c 85%);
+}
+
+/* Title of the Website */
+#title {
+
+    text-align: center;
+    font-size: 48px;
+    background: #648880;
+    background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+}
+
+/* Storyline */
+#storyline{
+
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+    
+}
+
+/* Descrition and information of the Movie */
+#description{
+    font-size: large;
+    text-align: center;
+    
+}
+
+
+/* Horizontal navigation bar */
+
+#navigation{
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+}
+
+  h4{
+    font-size: 34px;
+    background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+}
+
+/* Cast and Crew of the Movie */
+#castandcrew{
+    text-align: center;
+    font-size: 24px;
+     background: linear-gradient(#4e2f08,#8f673d,#8d775c 85%);
+     
+}
+
+/* Footer and Reference of the Movie */
+footer{
+    text-align: center;
+    font-size: 18px;
+    background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+}
+
