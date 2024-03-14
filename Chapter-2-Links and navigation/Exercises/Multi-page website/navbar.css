@@ -1,0 +1,120 @@
+body{
+  background-color:   #282828;
+}
+
+#creator{
+  text-align: center;
+  
+  background: linear-gradient(#4e2f08,#8f673d,#8d775c 85%);
+}
+/* Content or the Body of the website */
+#content{
+ border: solid;
+ border-color: #111;
+ border-radius: 5%;
+ border-width: 10%;
+  color:white;
+  text-align: center;
+    background: linear-gradient(#4e2f08,#8f673d,#8d775c 85%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Title of the Website */
+#title {
+
+    text-align: center;
+    font-size: 100px;
+    background: #648880;
+    background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+}
+
+/* Storyline */
+#storyline{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+    
+}
+
+/* Descrition and information of the Movie */
+#description{
+    font-size: large;
+    text-align: center;
+    color:white;
+}
+
+
+/* Horizontal navigation bar */
+
+#navigation{
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+}
+
+  h4{
+    font-size: 34px;
+    background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+}
+
+/* Cast and Crew of the Movie */
+#castandcrew{
+    text-align: center;
+    font-size: 24px;
+     background: linear-gradient(#222831 50%,#31363F 60%,#76ABAE 85%, #EEEEEE);
+     
+}
+
+/* Footer and Reference of the Movie */
+footer{
+    text-align: center;
+    font-size: 18px;
+    background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #346db3;
+  color: white;
+}
