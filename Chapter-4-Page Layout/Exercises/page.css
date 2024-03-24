@@ -1,0 +1,74 @@
+body{
+    background-color: #29552B;
+}
+#header{
+    text-align: center;
+    margin: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: auto;
+    background-color: #FAF0D7;
+}
+
+#front{
+    color: #fff;
+    background-color: #684f47;
+    margin-right: 40%;
+    text-align: center;
+    width: 100%;
+}
+
+#nav{
+    color: #fff;
+    border: solid;
+    background-color: bisque;
+    position:relative;
+    }
+    #nav {
+    position:absolute;
+    left:50%;top:0;
+    margin-left:-375px; /* negative margin equal to half the width */
+    width:750px;
+    list-style:none;
+    }
+    #nav li {
+    float:left;
+    }
+    #nav a {
+    display:block;
+    text-align:center;
+    width:150px; /* fixed width */
+    text-decoration:none; 
+ }
+
+ #main{
+    background: #5D4037;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 30px 15px;
+    text-align: center;
+ }
+
+ section {
+    float: left;
+    width: 63%;
+  }
+  aside {
+    float: right;
+    width: 30%;
+  }
+
+  #info{
+    color: #fff;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    text-align: center;
+    width: 50%;
+  }
+
+footer{
+    text-align: center;
+ margin-bottom: 0%;
+    background-color: bisque;
+}
