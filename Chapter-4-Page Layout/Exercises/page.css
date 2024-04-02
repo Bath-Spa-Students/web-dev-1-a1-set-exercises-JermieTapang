@@ -1,74 +1,102 @@
 body{
-    background-color: #29552B;
+  background-color: #d9d9d9;
 }
 #header{
-    text-align: center;
-    margin: 50px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: auto;
-    background-color: #FAF0D7;
+  text-align: center;
+  margin: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: auto;
+  color: white;
+  background-color: #24273E;
 }
 
 #front{
-    color: #fff;
-    background-color: #684f47;
-    margin-right: 40%;
-    text-align: center;
-    width: 100%;
+  color: #000000;
+  margin-right: 40%;
+  text-align: center;
+  width: 100%;
 }
 
-#nav{
-    color: #fff;
-    border: solid;
-    background-color: bisque;
-    position:relative;
-    }
-    #nav {
-    position:absolute;
-    left:50%;top:0;
-    margin-left:-375px; /* negative margin equal to half the width */
-    width:750px;
-    list-style:none;
-    }
-    #nav li {
-    float:left;
-    }
-    #nav a {
-    display:block;
-    text-align:center;
-    width:150px; /* fixed width */
-    text-decoration:none; 
- }
+.header{
+  background-color: #24273E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem
+}
 
- #main{
-    background: #5D4037;
-    border-radius: 6px;
-    color: #fff;
-    display: block;
-    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
-    padding: 30px 15px;
-    text-align: center;
- }
+.logo{
+  color: white;
+  font-family: "Tahoma", sans-serif;
+  font-size: 2rem;
+  margin-right: auto;
+}
 
- section {
-    float: left;
-    width: 63%;
-  }
-  aside {
-    float: right;
-    width: 30%;
-  }
+.nav{
+  margin-left: auto;
+}
 
-  #info{
-    color: #fff;
-    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
-    text-align: center;
-    width: 50%;
-  }
+.nav-bar{
+  display: flex;
+  list-style: none;
+}
+
+.nav-content{
+  color: white;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+
+#main{
+  background: #f9f9f9d6;
+  border-radius: 6px;
+  color: #000000;
+  display: block;
+  font-family: "Tahoma", sans-serif ;
+  padding: 30px 15px;
+  text-align: left;
+  border: none;
+}
+
+
+section {
+  float: left;
+  width: 63%;
+}
+aside {
+  float: left;
+  width: 30%;
+}
+
+.image1{
+  width: 45rem;
+  height: 20rem;
+}
+
+.image2{
+  width: 8rem;
+  height: 8rem;
+}
+
+.button{
+  display: block;
+  width: 10rem;
+  height: 3rem;
+  background-color: #24273E;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  line-height: 3rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 footer{
-    text-align: center;
- margin-bottom: 0%;
-    background-color: bisque;
+  text-align: center;
+margin-bottom: 0%;
+  background-color: rgb(159, 6, 157);
 }
