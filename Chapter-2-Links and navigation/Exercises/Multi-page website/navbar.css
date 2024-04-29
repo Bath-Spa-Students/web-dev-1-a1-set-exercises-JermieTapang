@@ -1,7 +1,6 @@
 body{
   background-color:   #282828;
 }
-
 #creator{
   text-align: center;
   
@@ -18,7 +17,6 @@ body{
     background: linear-gradient(#4e2f08,#8f673d,#8d775c 85%);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 /* Title of the Website */
 #title {
 
@@ -27,7 +25,6 @@ body{
     background: #648880;
     background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
 }
-
 /* Storyline */
 #storyline{
     color:rgb(0, 0, 0);

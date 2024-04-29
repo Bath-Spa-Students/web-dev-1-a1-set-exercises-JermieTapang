@@ -1,3 +1,5 @@
+//Menus Bar
+
 var number=6;
 var colors = generateRandomColor(number);        
 var indexs = document.querySelectorAll(".index");
@@ -26,6 +28,7 @@ easy.addEventListener("click",function(){
     }
 });
 
+//Choices for in game
 hard.addEventListener("click",function(){
 	easy.classList.remove("button");
 	hard.classList.add("button");
@@ -52,6 +55,7 @@ hard.addEventListener("click",function(){
 
      })
      
+     //random color generator
      var pickedColor=randomColor()
      var colorDisplay = document.getElementById("colorDisplay");
      colorDisplay.textContent=pickedColor;

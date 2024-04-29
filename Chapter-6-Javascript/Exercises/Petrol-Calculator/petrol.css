@@ -1,7 +1,9 @@
 body {
+  background-color: black;
   font-family: Arial, sans-serif;
 }
 .container {
+  color: white;
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;

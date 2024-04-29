@@ -9,5 +9,5 @@
         }
         
         var petrolCost = (distance / 100) * fuelPrice;
-        document.getElementById('result').innerHTML = "Petrol cost: $" + petrolCost.toFixed(2);
+        document.getElementById('result').innerHTML = "Petrol cost: AED" + petrolCost.toFixed(2);
       }
